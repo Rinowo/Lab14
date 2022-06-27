@@ -23,7 +23,7 @@ public class GenericCar<T> {
     }
 
     public void checkEmpty() {
-        this.cars.isEmpty();
+        System.out.println(this.cars.isEmpty());
     }
 
     public void grad() {

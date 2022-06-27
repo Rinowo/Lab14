@@ -13,7 +13,7 @@ public class Main {
 
             switch (choose) {
                 case 1 -> {
-                    System.out.print("Enter name: "); String name = sc.nextLine();
+                    System.out.print("Enter name: "); String name = sc.next();
                     sc.nextLine();
                     System.out.print("Enter price: "); Double price = sc.nextDouble();
                     sc.nextLine();
